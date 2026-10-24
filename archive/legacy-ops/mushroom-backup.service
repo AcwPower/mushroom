@@ -1,0 +1,15 @@
+[Unit]
+Description=Back up Mushroom King Timer MySQL database
+After=mysql.service
+
+[Service]
+Type=oneshot
+User=mushroom
+Group=mushroom
+EnvironmentFile=/etc/mushroom-king-timer.env
+ExecStart=/usr/bin/bash /opt/mushroom-king-timer/ops/backup.sh
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectHome=true
+ProtectSystem=strict
+ReadWritePaths=/var/backups/mushroom-king-timer

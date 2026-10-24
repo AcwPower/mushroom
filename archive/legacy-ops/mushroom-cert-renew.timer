@@ -1,0 +1,10 @@
+[Unit]
+Description=Check Mushroom King Timer IP certificate twice daily
+
+[Timer]
+OnCalendar=*-*-* 00,12:00:00
+Persistent=true
+RandomizedDelaySec=30m
+
+[Install]
+WantedBy=timers.target

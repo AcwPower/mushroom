@@ -1,0 +1,162 @@
+{
+  "captured_at": "2026-10-24T21:32:36.866940+08:00",
+  "source": "production /opt/mushroom-king-timer",
+  "files": {
+    ".env.example": {
+      "server_path": ".env.example",
+      "sha256": "7b5cb0e051eb6a6feb6817c04f57ae2a8c66d526c60bd2e8b680b65f7bef6176",
+      "runtime": false
+    },
+    "docs/legacy-server-readme.md": {
+      "server_path": "README.md",
+      "sha256": "96fc7fe53174e32558110306742acf52aa567ab3f806ba8bca2c6216207faa66",
+      "runtime": false
+    },
+    "app.js": {
+      "server_path": "app.js",
+      "sha256": "a840f1986b969528ec6587a0c47e6b25d9a09fe936a096d4c9af49300f214c13",
+      "runtime": true
+    },
+    "boss_scope.py": {
+      "server_path": "boss_scope.py",
+      "sha256": "8a03fdead6ca3b774f794dfe8ed5afa95fa36a041f278d26def5fbb533758c8b",
+      "runtime": true
+    },
+    "dorr.js": {
+      "server_path": "dorr.js",
+      "sha256": "f8c76f7146340a5cb88d270dbfb683a8148744fa5e0487c418712d470ff5e26f",
+      "runtime": true
+    },
+    "dorr.py": {
+      "server_path": "dorr.py",
+      "sha256": "955f29a72e3d6cc2b9d69670813f36f8c7144cb1ad3b52f9fb53eaa81883c1f1",
+      "runtime": true
+    },
+    "index.html": {
+      "server_path": "index.html",
+      "sha256": "d1df1557887e24e88e098900ab6f414dc2927b1c0809a67655212eb0ab96c11c",
+      "runtime": true
+    },
+    "archive/legacy-ops/backup.sh": {
+      "server_path": "ops/backup.sh",
+      "sha256": "6bcd2e81f25eb7d790b5f7d197479b3636cee6234ca9ce839538e0c579a1b9ab",
+      "runtime": false
+    },
+    "archive/legacy-ops/check_state.py": {
+      "server_path": "ops/check_state.py",
+      "sha256": "24cf9e931f0ab4bf24536d126344d757d78e7d3d1ea0513ae0b88d726ba9f856",
+      "runtime": false
+    },
+    "archive/legacy-ops/check_unknown_reset.py": {
+      "server_path": "ops/check_unknown_reset.py",
+      "sha256": "94c1d704b1d04644b9bf39a40e8c2e24fdf70c606dbcb4b6a51982ecd767bb0e",
+      "runtime": false
+    },
+    "archive/legacy-ops/deploy-first.sh": {
+      "server_path": "ops/deploy-first.sh",
+      "sha256": "d67dbacef1e7f5a2c7cdbeb590d340f50555e6365f64af3833840223ef107ff0",
+      "runtime": false
+    },
+    "archive/legacy-ops/enable-ip-https.sh": {
+      "server_path": "ops/enable-ip-https.sh",
+      "sha256": "4167958c4d6229c68b81bc346b383408396c7517198aa9c84ada6ecb8690e132",
+      "runtime": false
+    },
+    "archive/legacy-ops/mushroom-backup.service": {
+      "server_path": "ops/mushroom-backup.service",
+      "sha256": "b4e23aa1530245d655a5cc12b6ef85889a7040ee62055bb99e7b970a2db33fb5",
+      "runtime": false
+    },
+    "archive/legacy-ops/mushroom-backup.timer": {
+      "server_path": "ops/mushroom-backup.timer",
+      "sha256": "e28e0e7108710500c91960a33abcd66f21f83e616acad2ad92e8f10ea48568a7",
+      "runtime": false
+    },
+    "archive/legacy-ops/mushroom-cert-renew.service": {
+      "server_path": "ops/mushroom-cert-renew.service",
+      "sha256": "758bceb3c81187eb2d9afb2e61e8159efdc5b048c6461ddf95f5d93cdcad56a6",
+      "runtime": false
+    },
+    "archive/legacy-ops/mushroom-cert-renew.timer": {
+      "server_path": "ops/mushroom-cert-renew.timer",
+      "sha256": "fadcf972941584a0dcfc6079ff0dedf305a16a4207834d83b7eab6e4f090c3a1",
+      "runtime": false
+    },
+    "archive/legacy-ops/mushroom-timer.service": {
+      "server_path": "ops/mushroom-timer.service",
+      "sha256": "3d78d25f52a836e39938a5167458d6a5e9caa5aaaab5a227497ada8b7d615e29",
+      "runtime": false
+    },
+    "archive/legacy-ops/mysql-local.cnf": {
+      "server_path": "ops/mysql-local.cnf",
+      "sha256": "f95379d84e0aa3e6750132d696cdceb91c7b95baabd099c97b3d301e632d3188",
+      "runtime": false
+    },
+    "archive/legacy-ops/nginx-domain-https.conf": {
+      "server_path": "ops/nginx-domain-https.conf",
+      "sha256": "89aec7f6e88ad0a1986699a37a2ce4d57fa9b93d37a0ac3f53f5accb72f377a5",
+      "runtime": false
+    },
+    "archive/legacy-ops/nginx-ip-https.conf": {
+      "server_path": "ops/nginx-ip-https.conf",
+      "sha256": "5df9740460861f2a63debedc5fcc3584eef36d4caa9814773790c543e0fb2ac4",
+      "runtime": false
+    },
+    "archive/legacy-ops/nginx-site.conf": {
+      "server_path": "ops/nginx-site.conf",
+      "sha256": "38ee0bffc04b92faa82c6dbe513690477051afeb7463d76f71962116986c6cde",
+      "runtime": false
+    },
+    "archive/legacy-ops/smoke.py": {
+      "server_path": "ops/smoke.py",
+      "sha256": "04f80c68c2e41bdba8766f362750b687dd3f43b78cf22708baba9359c6220fec",
+      "runtime": false
+    },
+    "realm_scope.py": {
+      "server_path": "realm_scope.py",
+      "sha256": "3c7ee459bf86b678bfc593ca052cebebf189e1ceef294cd97594cb267628d096",
+      "runtime": true
+    },
+    "relay.py": {
+      "server_path": "relay.py",
+      "sha256": "8cb9f8f7d72ca72f9d67b3c66fcdd5416136db4941cf79b48b0a1f62aad012c8",
+      "runtime": true
+    },
+    "requirements.txt": {
+      "server_path": "requirements.txt",
+      "sha256": "e26750b70955099ef554b050d5e5e9cb65d08c92392cfb9ba0cdfddd01b05683",
+      "runtime": false
+    },
+    "scripts/build-frontend.mjs": {
+      "server_path": "scripts/build-frontend.mjs",
+      "sha256": "969cf32e3a169e46fdfb79ee601164074afdb659837e13d508935ca3cb72688e",
+      "runtime": false
+    },
+    "server.py": {
+      "server_path": "server.py",
+      "sha256": "6c703b84c2e01be199321da750b2136de837c3e9ac7ed277e9ffeaa955adfb37",
+      "runtime": true
+    },
+    "service_runtime.py": {
+      "server_path": "service_runtime.py",
+      "sha256": "3cf71bab1a71d27be462bc8bff74ed7ab671eff9e87d1c6d77dd8433b2b9dc15",
+      "runtime": true
+    },
+    "style.css": {
+      "server_path": "style.css",
+      "sha256": "413271b28fd84862eeb90ee8e5bae446ce75fa9e5048e34bc25588affd77d43f",
+      "runtime": true
+    },
+    "view_cache.py": {
+      "server_path": "view_cache.py",
+      "sha256": "7cbe7884e88d348f3d4713dbabbf1c0e0e2aeb99c8436da797e21d70d59bc9dd",
+      "runtime": true
+    }
+  },
+  "notes": [
+    "Runtime source is byte-identical to production at capture time.",
+    "Production dist matches corresponding root JS/CSS/HTML files.",
+    "Server legacy README and ops are preserved for reference only, not current deployment instructions.",
+    "Local regression tests and laptop documentation were added separately."
+  ]
+}

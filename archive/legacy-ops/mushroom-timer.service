@@ -1,0 +1,23 @@
+[Unit]
+Description=Mushroom King Timer API and scheduler
+After=network-online.target mysql.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=mushroom
+Group=mushroom
+WorkingDirectory=/opt/mushroom-king-timer
+EnvironmentFile=/etc/mushroom-king-timer.env
+Environment=PYTHONDONTWRITEBYTECODE=1
+ExecStart=/opt/mushroom-king-timer/.venv/bin/python /opt/mushroom-king-timer/server.py
+Restart=always
+RestartSec=5
+TimeoutStopSec=20
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectHome=true
+ProtectSystem=strict
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,8 @@
+[Unit]
+Description=Renew short-lived IP certificate for Mushroom King Timer
+After=network-online.target nginx.service
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/opt/mushroom-certbot/bin/certbot renew --quiet --deploy-hook "/usr/bin/systemctl reload nginx"

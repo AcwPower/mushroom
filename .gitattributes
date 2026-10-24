@@ -1,0 +1,2 @@
+# Keep deployed file bytes identical across Windows and macOS clones.
+* -text
